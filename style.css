@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;;
+    font-weight: 100;
+    font-size:100%;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.cabecalho{
+    width: 100%;
+    padding:40px 8%;
+    background-color:#13c7ae;
+    float: left;
+}
+
+.logotipo{
+
+    float: left;
+    font-size: 0;
+    width: 55px;
+    height: 55px;
+    background: url(logotipo-removebg-preview.png) no-repeat center center/60px;
+    cursor: pointer;
+}
+
+form{
+    float: right;
+    width: 30%;
+}
+
+input[name="txtpesquisa"]{
+    float: left;
+    width: 85%;
+    padding: 8px 10px;
+    border-radius: 5px 0 0 5px;
+}
+
+.btnpesquisar{
+    float: left;
+    padding: 8px 10px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    width: 15%;
+    background-color: #00a896;
+}
+
+.menu{
+
+    float: left;
+    padding:17px 8%;
+    width: 100%;
+    background-color: #212529;
+
+}
+
+ul li{
+    float: left;
+    margin-right: 10px;
+
+}
+
+ul li a{
+    color: #fff;
+}
+
+ul li a:hover{
+    padding-bottom: 14px;
+    border-bottom: 3px solid #fff;
+}
+
+.social-media{
+
+    float: right;
+
+}
+
+.social-media i{
+float: left;
+margin-left: 10px;
+cursor: pointer;
+color: #fff;
+}
+
+
+.principal{
+
+    width: 100%;
+    padding: 5px 8%;
+    float: left;
+}
+
+
+.principal .artigo{
+
+    width: 75%;
+    float: left;
+    margin-right: 10px;
+}
+
+.principal .artigo img{
+
+    width:48%;
+    float: left;
+    border-radius:5px;
+    margin-right: 10px;
+
+}
+
+.principal .artigo p{
+
+    text-align: justify;
+
+}
+
+.address{
+    float: right;
+    width: 23%;
+    height: 600px;
+    background-color:#e5e5e5;
+    padding: 10px 10px;
+}
+
+iframe{
+
+    width: 100%; 
+    padding: 10px 0;
+    height: 400px;
+}
+
+.newsletter{
+    float: left;
+    width: 100%;
+    padding: 30px 8%;
+    background-color:#212529 ;
+}
+
+.newsletter h1{
+    color:#fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.newsletter p{
+    color:#fff
+}
+
+
+.newsletter form{
+
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+.newsletter input{
+
+    width: 40%;
+    border-radius: 5px;
+    padding: 20px 10px;
+    margin-right: 1%;
+    float: left;
+    background-color: initial;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+
+.newsletter button{
+
+    float: left;
+    width: 18%;
+    padding: 20px 10px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #00a896;
+    cursor: pointer;
+}
+
+.fa-paper-plane{
+
+    padding-right: 5px;
+}
