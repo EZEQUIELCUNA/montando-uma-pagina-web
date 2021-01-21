@@ -190,3 +190,71 @@ iframe{
 
     padding-right: 5px;
 }
+
+.rodape{
+    float: left;
+    width: 100%;
+    padding: 10px 8%;
+    background-color: #FFFF;
+}
+
+.endereco-left{
+
+    margin-left:42.5%;
+}
+
+.endereco-left button{
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    margin-left: 1%;
+    border-radius:50%;
+    background-color: #fff;
+
+}
+
+
+.endereco-left .facebook{
+
+   border: 1px solid #3B5998;
+    color: #3B5998;
+}
+
+.endereco-left .twitter{
+   
+    border: 1px solid  #55ACEE;
+    color:  #55ACEE;
+}
+
+.endereco-left .message{
+   
+    border: 1px solid  #1F2B38;
+    color:  #1F2B38;
+}
+
+.rodape p{
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+.endereco-left .facebook:hover{
+
+    background-color: #3B5998;
+    color: #fff;
+    cursor: pointer;
+}
+
+.endereco-left .twitter:hover{
+
+    background-color: #55ACEE;
+    color: #fff;
+    cursor: pointer;
+}
+.endereco-left .message:hover{
+
+    background-color: #1F2B38;
+    color: #fff;
+    cursor: pointer;
+}
